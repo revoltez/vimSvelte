@@ -7,7 +7,7 @@
 # Installation
 
 ```
-clone
+clone https://github.com/revoltez/vimSvelte my-project
 cd my-project
 npm i
 npm run dev
