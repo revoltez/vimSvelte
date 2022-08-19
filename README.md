@@ -2,7 +2,7 @@
 
 -   this repository is a minimal template to get started with svelte
 -   configured to make prettier for svelte work exactly like in vscode
--   this repository is cloned from [sveltejs/template](https://github.com/sveltejs/template)
+-   this repository is cloned from [sveltejs/template](https://github.com/sveltejs/template).
 
 # Installation
 
@@ -12,8 +12,9 @@ cd my-project
 npm i
 npm run dev
 ```
+if you are using vite or svelteKit, simply copy `prettier.config.cjs`, and add ` prettier prettier-plugin-svelte` with your favorite package manager 
 
--   if you are using vite or svelteKit, simply copy `prettier.config.cjs`, and add these two packages with your favorite package manageer `npm i -D prettier prettier-plugin-svelte`
+ex: `npm i -D prettier prettier-plugin-svelte`
 
 # vim/neovim configuration
 
