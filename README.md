@@ -10,13 +10,14 @@
 clone https://github.com/revoltez/vimSvelte my-project
 cd my-project
 npm i
-npm run dev
 ```
-if you are using vite or svelteKit, simply copy `prettier.config.cjs`, and add ` prettier prettier-plugin-svelte` with your favorite package manager 
+## Sveltkit
+- If you are using vite or svelteKit, rename `prettier.config.js` to `prettier.config.cjs`
+- Add ` prettier prettier-plugin-svelte` with your favorite package manager (npm or yarn) 
 
-ex: `npm i -D prettier prettier-plugin-svelte`
+    ex: `npm i -D prettier prettier-plugin-svelte`
 
-# vim/neovim configuration
+# vim/neovim + COC configuration
 
 -   you need to have the following plugins added to your vimrc or init.vim in case you are using neovim
 
